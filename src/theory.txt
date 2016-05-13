@@ -1,0 +1,22 @@
+The 10 metrics obtained from the dataset are:
+
+Female_to_Male_Ratio =                         female population/male population
+Infants_per_Household=                         no. of infants/no. of households
+Ratio_of_Underpriviledged_Population=          (sum of SC and ST population)/total population
+Literacy_rate=                                 literate population/total population
+Male_Literacy_rate=                            literate male population/male population
+Female_Literacy_rate=                          literate female population/female population
+Working_population_ratio=                      working population/total population
+Male_Working_population_ratio=                 working male population/male population
+Female_Working_population_ratio=               working female population/female population
+Ratio_of_agriculture_to_industrial_households= agriculture population/industrial population
+
+From the above 10 metrics, 3 other indices are derived
+
+Social parameter=            (1/ Ratio_of_Underpriviledged_Population)*(1/ Infants_per_Household)
+
+Economic parameter=          (Literacy_rate * Working_population_ratio )/ Ratio_of_agriculture_to_industrial_households
+				 	
+Women upliftment parameter=  Female_to_Male_Ratio * (Female_Literacy_rate/ Male_Literacy_rate)* (Female_Working_population_ratio/ Male_Working_population_ratio)
+
+Based on the decreasing values of above 3 indices, the files o1 o2 and o3 are prepared.
